@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "OpenSans", Arial, sans-serif;
+    font-size: 45.83px;
+    line-height: 125px;
+    font-weight: 400;
+    color: #393939;
+
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color: #4c5fa9;
+    color: #ffffff;
+}
+
+.header a{
+    color: #ffffff;
+}
+
+.header a:hover,
+.header a:focus{
+    color: #092697
+}
+
+.header-name{
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+.header-profession{
+    font-size: 58.33px;
+}
+
+.contacts-link{
+    line-height: 66.67px;
+}
+
+.contacts-email{
+    line-height: 70.83px;
+}
+
+
+.Interest-item,
+.Reference-item,
+.Awwards-item,
+.Experience-item,
+.Education-item,
+.Skils-item,
+.contacts-link{
+    list-style: none;
+}
+
+.conteiner h2{
+    font-size: 66.67px;
+    color: #2e2e2e;
+}
+
+.Profile p{
+    line-height: 75px;
+}
+
+.Awwards-item,
+.Interest-item,
+.Skils-item{
+    font-weight: 600;
+}
+
+.Experience-item b,
+.Reference-item b,
+.Education-item b{
+    font-weight: 600;
+    color: #4c5eab;
+}
+.descripon{
+    line-height: 70.83px;
+}
