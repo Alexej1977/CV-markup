@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
 
-    font-family: "OpenSans", Arial, sans-serif;
+    font-family: "Open+Sans", "Arial", sans-serif;
     font-size: 45.83px;
     line-height: 125px;
     font-weight: 400;
@@ -22,6 +22,23 @@ a{
     color: #ffffff;
 }
 
+.header-name{
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 100px;
+    line-height: 95px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.header-profession{
+    font-family: "Open+Sans", Arial, sans-serif;
+    font-size: 58.33px;
+    line-height: 95px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.header-contakts,
 .header a{
     color: #ffffff;
 }
@@ -29,16 +46,6 @@ a{
 .header a:hover,
 .header a:focus{
     color: #092697
-}
-
-.header-name{
-    font-family: "Montserrat", Arial, sans-serif;
-    font-weight: 400;
-    font-size: 100px;
-}
-
-.header-profession{
-    font-size: 58.33px;
 }
 
 .contacts-link{
@@ -49,6 +56,9 @@ a{
     line-height: 70.83px;
 }
 
+.contacts-tel{
+    line-height: 125px;
+}
 
 .Interest-item,
 .Reference-item,
@@ -83,4 +93,95 @@ a{
 }
 .descripon{
     line-height: 70.83px;
+}
+
+/* Рзметка сетки*/
+.visually-hidden{
+    display: none;
+}
+
+body,
+h1,
+h2,
+p,
+span,
+ul,
+main,
+div,
+a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{    
+    width: 2625px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    height: 645px;
+}
+
+.img{
+    width: 627px;
+    height: 360px;
+    margin-top: 151px;
+    float: left;
+}
+
+
+.header-name{
+    margin: 0px;
+    padding: 0px;
+    width: 915px;
+    margin-left: 18px;
+    margin-top: 236px; 
+    float: left;
+    
+}
+
+.header-contakts{
+    margin: 0px;
+    width: 475px;
+    padding: 0px;
+    padding-right: 101px;
+    margin-top: 160px;
+    float: right;
+}
+
+.left-column{
+    width: 665px;
+    float: left;
+    padding-left: 205px;
+    padding-top: 100px;
+}
+
+.riht-column{
+    width: 1605px;
+    float: left;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.Interest-item{
+    width: 221px;
+    float: left;
+}
+
+.descripon,
+.Experience-item,
+.Education-item{
+    width: 800px;
+    float: left;
+} 
+
+.descripon{
+    padding-top: 81px;
+    padding-bottom: 81px;
+}
+
+.Skils-item{
+    width: 400px;
+    float: left;
 }

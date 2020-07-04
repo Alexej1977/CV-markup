@@ -7,17 +7,20 @@
         <meta name="discrition" content="Резюме">
         <link rel="shorcut icon" href="https://atom.io/favicon.ico">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!--Заоловок документа с контактами-->
+        <h1 class="visually-hidden">Rezume</h1>
+        <!--Заголовок документа с контактами-->
         <header class="header">
-            <img src="Images/title.jpg" alt="Titulnoe foto" width="393" height="270">
-            <p class="header-name">Andrew Smith </p>
-            <p class="header-profession">UI/UX Designer</p>
-            <div class="header-contacts">
-                <ul>
+            <div class="img">
+     <!--           <img src="Images/title.jpg" alt="Titulnoe foto" width="393" height="270">  -->
+            </div>
+            <p class="header-name">Andrew Smith <br>
+            <span class="header-profession">UI/UX Designer </span></p>
+
+                <ul class="header-contakts">
                     <li class="contacts-link" >67/B Munshi para Sylhet.</li>
                     <li class="contacts-link">
                         <a class="contacts-email" href="itsnuman.com">
@@ -33,12 +36,11 @@
                        </a>
                     </li>   
                 </ul>
-            </div>
+
         </header>
         <main class="conteiner">
-            <h1 class="visually-hidden">Rezume</h1>
             <!--Левая колонка документа-->
-            <aside class="lef-top">
+            <aside class="left-column">
                 <section class="Profile">
                     <h2>Profile Info</h2>
                     <p>Dolor sit a quam erat volutpat. Ut wisi enim ad minim veniam, quis nostruduk cipit lobortis nislea quis commodo consequat. Quis nostruduk cipit lobortis nislea.</p>
@@ -76,7 +78,7 @@
                 </section>
             </aside>
             <!--Правая колонка документа-->
-            <div class="Riht-top">
+            <div class="riht-column">
                 <section class="Work Experience">
                     <h2>Work Experience</h2>
                     <ul class="Experienc-list">
@@ -84,19 +86,25 @@
                             <p>2000 - Present</p>
                             <b>UI/UX Designer</b>
                             <p>Microsoft Corp.</p>
-                            <p class="descripon">Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea cosequat.</p>
                         </li>
-                        <li class="Experience-item">
-                            <p>2010 - 2014</p>
-                            <b>Lead Designer</b>
-                            <p>DeviserWeb</p>
+                        <li class="descripon">
                             <p>Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea cosequat.</p>
                         </li>
                         <li class="Experience-item">
                             <p>2010 - 2014</p>
                             <b>Lead Designer</b>
                             <p>DeviserWeb</p>
-                            <p class="descripon">Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea cosequat.</p>
+                        </li>    
+                        <li class="descripon">    
+                            <p>Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea cosequat.</p>
+                        </li>
+                        <li class="Experience-item">
+                            <p>2010 - 2014</p>
+                            <b>Lead Designer</b>
+                            <p>DeviserWeb</p>
+                        </li>    
+                        <li class="descripon">    
+                            <p>Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea cosequat.</p>
                         </li>
                     </ul>
                 </section>
@@ -107,25 +115,27 @@
                             <p>1999 - 2008</p>
                             <b>High School Graduate</b>
                             <p>Microsoft Corp.</p>
-                            <p class="descripon">Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea cosequat.</p>
+                        </li>
+                        <li class="descripon">     
+                            <p>Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea cosequat.</p>
                         </li>
                         <li class="Education-item">
                             <p>2010 - 2014</p>
                             <b>Bachelor Degree</b>
                             <p>DeviserWeb</p>
-                            <p class="descripon">Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea cosequat.</p>
+                        </li>
+                        <li class="descripon">     
+                            <p>Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea cosequat.</p>
                         </li>
                     </ul>
                 </section>
                 <section class="Professional-Skills">
                     <h2>Professional Skills</h2>
                     <ul class="Skilss-list">
-                        <li class="Skils-item">
-                            <p>User Interface</p>
-                            <p>Web Design</p>
-                            <p>Photoshop</p>
-                            <p>User Experience</p>
-                        </li>
+                        <li class="Skils-item">User Interface</li>
+                        <li class="Skils-item">Web Design</li>
+                        <li class="Skils-item">Photoshop</li>
+                        <li class="Skils-item">User Experience</li>
                     </ul>
                 </section>
             </div>    
