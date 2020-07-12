@@ -60,6 +60,10 @@ a{
     line-height: 125px;
 }
 
+.left-column{
+    background-color: #fafafa;
+}
+
 li,
 .Interest li,
 .Reference-item,
@@ -797,4 +801,137 @@ footer a{
 
 .hiden-element{
     display: none;
+}
+
+/* Страница портфолио */
+
+.rabota{
+    font-weight: 600;
+}
+
+.perechen-rabot li{
+    text-align: center;
+    line-height: 70px;
+}
+
+.podpis{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.Reference-fist-port b,
+.Reference-second-port b{
+    font-weight: 600;
+    color: #4c5eab;
+}
+
+.Reference-fist-port{
+    margin-bottom: 120px;
+    padding-left: 95px;
+}
+
+.Reference-fist-port b{
+    position: relative;
+}
+
+.Reference-fist-port b::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -90px;
+    top: 0px;
+    width: 48px;
+    height: 48px;
+    background-image: url("Images/Ellipse\ 2.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.Reference-fist-port b::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -90px;
+    top: 44px;
+    width: 48px;
+    height: 360px;
+    background-image: url("Images/Shape\ 1.png");
+    background-position:  bottom;
+    background-repeat: repeat-y;
+}
+
+.Reference-second-port{
+    margin-bottom: 150px;
+    padding-left: 95px;
+}
+
+.Reference-second-port b{
+    position: relative;
+}
+
+.Reference-second-port b::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -90px;
+    top: 0px;
+    width: 48px;
+    height: 48px;
+    background-image: url("Images/Ellipse\ 2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portfolio h2::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 120px;
+    background-image: url("Images/brief\ case\ 2.png"),
+                      url("Images/Ellipse\ 3.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+} 
+
+.perechen-rabot{
+    padding-left: 215px;
+    float: left;
+}
+
+.perechen-rabot li{
+    float: left;
+    margin-top: 50px;
+    margin-right: 52px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 100px #e0e0e0;
+}
+
+.scrinshot{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("Images/fon_portfolio.jpg");
+    border: 1px solid #ccc;
+}
+
+.scrinshot a{
+    display: block;
+    height: 435px;
+}
+
+.foot-portfolio{
+    padding: 70px;
+    margin-bottom: 300px;
+    overflow: auto;
+
+}
+
+.foot-portfolio a{
+    display: inline-block;
+    padding: 10px 70px;
+    border: 5px solid  #ffffff;
+    border-radius: 60px 60px;
+    box-shadow: 0 0 50px;
+    float: none;
 }
