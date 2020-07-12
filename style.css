@@ -38,7 +38,7 @@ a{
     letter-spacing: 0.01em;
 }
 
-.header-contakts,
+.header-contacts,
 .header a{
     color: #ffffff;
 }
@@ -60,13 +60,16 @@ a{
     line-height: 125px;
 }
 
-.Interest-item,
+li,
+.Interest li,
 .Reference-item,
 .Awwards-item,
 .Experience-item,
 .Education-item,
 .Skils-item,
-.contacts-link{
+.contacts-link,
+.Skils-possession,
+.descripon{
     list-style: none;
 }
 
@@ -80,19 +83,52 @@ a{
 }
 
 .Awwards-item,
-.Interest-item,
-.Skils-item{
+.Interest li,
+.Skilss-item{
     font-weight: 600;
 }
 
+.Skilss-item{
+    text-align: center;
+}
+
 .Experience-item b,
-.Reference-item b,
+.Reference-fist b,
+.Reference-second b,
 .Education-item b{
     font-weight: 600;
     color: #4c5eab;
 }
+
+.Awwards-list,
+.Reference-list,
+.Education-list,
+.Experience-list{
+    line-height: 95px;
+}
+
 .descripon{
     line-height: 70.83px;
+}
+
+.Skilss-prossession{
+    font-size: 66.67px;
+    line-height: 125px;
+    text-align: center;
+}
+
+footer{
+    background-color: #4c5fa9;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+footer a:focus,
+footer a:hover{
+    color: #4c5fa9;
+    background-color: #ffffffff;
 }
 
 /* Рзметка сетки*/
@@ -120,68 +156,645 @@ body{
 }
 
 .header{
-    height: 645px;
+    overflow: auto;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.header::before{
+    content: " ";
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 190px;
+    left: 205px;
+    background-image: url(Images/Ellipse\ 1.png);
 }
 
 .img{
-    width: 627px;
-    height: 360px;
-    margin-top: 151px;
+    width: 580px;
+    height: 580px;
     float: left;
 }
 
+.img p{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    margin-top: 191px;
+    margin-left: 200px;
+    display: block;
+    overflow: hidden;
+    border-radius: 190px 190px;
+}
+
+.foto img{
+    margin-left: -100px;
+}
 
 .header-name{
     margin: 0px;
     padding: 0px;
     width: 915px;
-    margin-left: 18px;
-    margin-top: 236px; 
+    margin-left: 35px;
+    margin-top: 241px; 
     float: left;
     
 }
 
-.header-contakts{
+.header-contacts{
     margin: 0px;
-    width: 475px;
     padding: 0px;
-    padding-right: 101px;
-    margin-top: 160px;
+    width: 375px;
+    padding-top: 155px;
+    margin-right: 200px;
+    padding-left: 100px;
     float: right;
 }
 
-.left-column{
+.contacts-link{
+    display: block;
+    position: relative;
+}
+
+.contacts-link::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -75px;
+    top: 5px;
+    width: 36px;
+    height: 48px;
+    background-image: url("Images/map\ pin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacts-email{
+    display: block;
+    position: relative;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.contacts-email::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -75px;
+    top: 10px;
+    width: 36px;
+    height: 48px;
+    background-image: url("Images/globe.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacts-tel{
+    display: block;
+    position: relative;
+    margin-top: 45px;
+    list-style: none;
+    padding-bottom: 120px;
+}
+
+.contacts-tel::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -75px;
+    top: 35px;
+    width: 36px;
+    height: 48px;
+    background-image: url("Images/telephone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left-column{ 
     width: 665px;
-    float: left;
     padding-left: 205px;
-    padding-top: 100px;
-}
-
-.riht-column{
-    width: 1605px;
     float: left;
-    padding-left: 150px;
-    padding-top: 100px;
 }
 
-.Interest-item{
+.Profile h2{
+    position: relative;
+    padding-left: 165px;
+    margin-bottom: 65px;
+}
+
+.Profile h2::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 120px;
+    background-image: url("Images/brief\ case\ 2.png"),
+                      url("Images/Ellipse\ 3.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.Profile p{
+    margin-bottom: 190px;
+}
+
+.Interest-list{
+    overflow: auto;
+}
+
+.Interest{
+    margin-bottom: 130px;
+}
+
+.Interest h2{
+    position: relative;
+    padding-left: 165px;
+    margin-bottom: 75px;
+}
+
+.Interest h2::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 120px;
+    background-image: url("Images/brief\ case\ 2.png"),
+                      url("Images/Ellipse\ 3.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.Interest-list li{
     width: 221px;
     float: left;
+    padding-top: 190px;
 }
 
-.descripon,
+
+.musik{
+    display: block;
+    position: relative;
+    text-align: left;
+}
+
+.musik::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 144px;
+    height: 144px;
+    background-image: url("Images/Ellipse\ 2.png"),
+                      url("Images/handset.png"); 
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;                  
+}
+
+.gaming{
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.gaming::before{
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 38px;
+    width: 144px;
+    height: 144px;
+    background-image: url("Images/Ellipse\ 2.png"),
+                      url("Images/playstation.png"); 
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;                  
+}
+
+.biking{
+    display: block;
+    position: relative;
+    text-align: right;
+}
+
+.biking::before{
+    content: " ";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 144px;
+    height: 144px;
+    background-image: url("Images/Ellipse\ 2.png"),
+                      url("Images/vespa.png"); 
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;                  
+}
+
+.Reference h2{
+    position: relative;
+    padding-left: 165px;
+    margin-bottom: 70px;
+}
+
+.Reference h2::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 120px;
+    background-image: url("Images/brief\ case\ 2.png"),
+                      url("Images/Ellipse\ 3.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+}   
+
+.Reference-fist{
+    margin-bottom: 120px;
+    padding-left: 95px;
+}
+
+.Reference-fist b{
+    position: relative;
+}
+
+.Reference-fist b::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -90px;
+    top: 0px;
+    width: 48px;
+    height: 48px;
+    background-image: url("Images/Ellipse\ smoll.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.Reference-fist b::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -90px;
+    top: 44px;
+    width: 48px;
+    height: 360px;
+    background-image: url("Images/Shape\ 1.png");
+    background-position:  bottom;
+    background-repeat: repeat-y;
+}
+
+.Reference-second{
+    margin-bottom: 150px;
+    padding-left: 95px;
+}
+
+.Reference-second b{
+    position: relative;
+}
+
+.Reference-second b::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -90px;
+    top: 0px;
+    width: 48px;
+    height: 48px;
+    background-image: url("Images/Ellipse\ smoll.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Awwards h2{
+    position: relative;
+    padding-left: 165px;
+    margin-bottom: 70px;
+}
+
+.Awwards h2::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 120px;
+    background-image: url("Images/brief\ case\ 2.png"),
+                      url("Images/Ellipse\ 3.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+}   
+
+/* Правая колонка */
+
+.riht-column{
+    width: 1585px;
+    margin-left: 120px;
+    float: left;
+}
+
+main::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.riht-column h2{
+    margin-bottom: 70px;
+    position: relative;
+    padding-left: 215px;
+}
+
+.Work-Experience h2::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 120px;
+    background-image: url("Images/brief\ case\ 2.png"),
+                      url("Images/Ellipse\ 3.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+}    
+
+.Experience-list{
+    margin-left: 130px;
+    margin-bottom: 50px;
+    width: 1755px;
+    overflow: auto;
+}
+
+.work1{
+    position: relative;
+}
+
+.work1::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -85px;
+    top: 0px;
+    width: 48px;
+    height: 48px;
+    background-image: url("Images/Ellipse\ smoll.png");
+    background-position: top, center;
+    background-repeat: no-repeat;
+}
+
+.work1::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -85px;
+    top: 44px;
+    width: 48px;
+    height: 345px;
+    background-image: url("Images/Shape\ 1.png");
+    background-position:  bottom, center;
+    background-repeat: repeat-y;
+}
+
+.work2{
+    position: relative;
+}
+
+.work2::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -85px;
+    top: 0px;
+    width: 48px;
+    height: 48px;
+    background-image: url("Images/Ellipse\ smoll.png");
+    background-position: top, center;
+    background-repeat: no-repeat;
+}
+
+.work2::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -85px;
+    top: 44px;
+    width: 48px;
+    height: 345px;
+    background-image: url("Images/Shape\ 1.png");
+    background-position:  bottom, center;
+    background-repeat: repeat-y;
+}
+
+.work3{
+    position: relative;
+}
+
+.work3::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -85px;
+    top: 0px;
+    width: 48px;
+    height: 48px;
+    background-image: url("Images/Ellipse\ smoll.png");
+    background-position: top, center;
+    background-repeat: no-repeat;
+}
+
+.education1{
+    position: relative;
+}
+
+.education1::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -85px;
+    top: 0px;
+    width: 48px;
+    height: 48px;
+    background-image: url("Images/Ellipse\ smoll.png");
+    background-position: top, center;
+    background-repeat: no-repeat;
+}
+
+.education1::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -85px;
+    top: 44px;
+    width: 48px;
+    height: 345px;
+    background-image: url("Images/Shape\ 1.png");
+    background-position:  bottom, center;
+    background-repeat: repeat-y;
+}
+
+.education2{
+    position: relative;
+}
+
+.education2::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    left: -85px;
+    top: 0px;
+    width: 48px;
+    height: 48px;
+    background-image: url("Images/Ellipse\ smoll.png");
+    background-position: top, center;
+    background-repeat: no-repeat;
+}
+
 .Experience-item,
 .Education-item{
-    width: 800px;
+    width: 570px;
+    margin-left: 85px;
     float: left;
 } 
 
 .descripon{
-    padding-top: 81px;
-    padding-bottom: 81px;
+    width: 715px;
+    margin: 0px;
+    padding-top: 27px;
+    margin-bottom: 250px;
+    float: left;
 }
 
-.Skils-item{
-    width: 400px;
+.Education h2::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 120px;
+    background-image: url("Images/brief\ case.png"),
+                      url("Images/Ellipse\ 3.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+}    
+
+.Education-list{
+    margin-left: 130px;
+    width: 1755px;
+    overflow: auto;
+}
+
+.descripon{
+    width: 715px;
+    margin: 0px;
+    padding-top: 27px;
+    margin-bottom: 150px;
     float: left;
+}
+
+.Education{
+    margin-bottom: 100px;
+}
+
+.Professional-Skills h2::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 120px;
+    background-image: url("Images/graph\ chart\ 1.png"),
+                      url("Images/Ellipse\ 3.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+} 
+
+.Skilss-list{
+    padding-left: 120px;
+    position: relative;
+    overflow: auto;
+}
+
+.Skilss-item,
+.Skilss-prossession{
+    width: 360px;
+    float: left;
+}
+
+.Skilss-prossession{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Interface::before{
+    content: " ";
+    width: 240px;
+    height: 240px;
+    left: 180px;
+    top: 42px;
+    position: absolute;
+    background-image: url("Images/Ellipse 93.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;                  
+}
+
+.Design::before{
+    content: " ";
+    width: 240px;
+    height: 240px;
+    left: 538px;
+    top: 42px;
+    position: absolute;
+    background-image: url("Images/Ellipse 97.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;                  
+}
+
+.Photoshop::before{
+    content: " ";
+    width: 240px;
+    height: 240px;
+    left: 896px;
+    top: 42px;
+    position: absolute;
+    background-image: url("Images/Ellipse 84.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;                  
+}
+
+.Experience::before{
+    content: " ";
+    width: 240px;
+    height: 240px;
+    left: 1254px;
+    top: 42px;
+    position: absolute;
+    background-image: url("Images/Ellipse 83.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;                  
+}
+
+footer{
+    padding: 70px;
+    margin-bottom: 300px;
+    overflow: auto;
+
+}
+
+footer a{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 5px solid  #ffffff;
+    border-radius: 60px 60px;
+    box-shadow: 0 0 50px;
+    float: right;
+}
+
+.hiden-element{
+    display: none;
 }
