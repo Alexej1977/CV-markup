@@ -108,7 +108,7 @@ li,
 .Reference-list,
 .Education-list,
 .Experience-list{
-    line-height: 95px;
+    line-height: 75px;
 }
 
 .descripon{
@@ -159,9 +159,13 @@ body{
     margin-right: auto;
 }
 
+main{
+    margin-bottom: 50px;
+}
+
 .header{
     overflow: auto;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
     position: relative;
 }
 
@@ -170,7 +174,7 @@ body{
     position: absolute;
     width: 360px;
     height: 360px;
-    top: 190px;
+    top: 160px;
     left: 205px;
     background-image: url(Images/Ellipse\ 1.png);
 }
@@ -185,8 +189,8 @@ body{
     position: relative;
     width: 380px;
     height: 380px;
-    margin-top: 191px;
-    margin-left: 200px;
+    margin-top: 150px;
+    margin-left: 195px;
     display: block;
     overflow: hidden;
     border-radius: 190px 190px;
@@ -200,8 +204,8 @@ body{
     margin: 0px;
     padding: 0px;
     width: 915px;
-    margin-left: 35px;
-    margin-top: 241px; 
+    margin-left: 60px;
+    margin-top: 230px; 
     float: left;
     
 }
@@ -210,7 +214,7 @@ body{
     margin: 0px;
     padding: 0px;
     width: 375px;
-    padding-top: 155px;
+    padding-top: 148px;
     margin-right: 200px;
     padding-left: 100px;
     float: right;
@@ -225,7 +229,7 @@ body{
     display: block;
     content: " ";
     position: absolute;
-    left: -75px;
+    left: -77px;
     top: 5px;
     width: 36px;
     height: 48px;
@@ -237,7 +241,7 @@ body{
 .contacts-email{
     display: block;
     position: relative;
-    margin-top: 30px;
+    margin-top: 13px;
     list-style: none;
 }
 
@@ -245,7 +249,7 @@ body{
     display: block;
     content: " ";
     position: absolute;
-    left: -75px;
+    left: -77px;
     top: 10px;
     width: 36px;
     height: 48px;
@@ -257,16 +261,15 @@ body{
 .contacts-tel{
     display: block;
     position: relative;
-    margin-top: 45px;
     list-style: none;
-    padding-bottom: 120px;
+    padding-bottom: 90px;
 }
 
 .contacts-tel::before{
     display: block;
     content: " ";
     position: absolute;
-    left: -75px;
+    left: -77px;
     top: 35px;
     width: 36px;
     height: 48px;
@@ -274,6 +277,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* Левая колонка */
 
 .left-column{ 
     width: 665px;
@@ -283,15 +288,15 @@ body{
 
 .Profile h2{
     position: relative;
-    padding-left: 165px;
-    margin-bottom: 65px;
+    padding-left: 160px;
+    margin-bottom: 30px;
 }
 
 .Profile h2::before{
     display: block;
     content: " ";
     position: absolute;
-    left: 0px;
+    left: -5px;
     top: 0px;
     width: 120px;
     height: 120px;
@@ -302,7 +307,7 @@ body{
 }
 
 .Profile p{
-    margin-bottom: 190px;
+    margin-bottom: 95px;
 }
 
 .Interest-list{
@@ -310,20 +315,20 @@ body{
 }
 
 .Interest{
-    margin-bottom: 130px;
+    margin-bottom: 70px;
 }
 
 .Interest h2{
     position: relative;
-    padding-left: 165px;
-    margin-bottom: 75px;
+    padding-left: 160px;
+    margin-bottom: 50px;
 }
 
 .Interest h2::before{
     display: block;
     content: " ";
     position: absolute;
-    left: 0px;
+    left: -5px;
     top: 0px;
     width: 120px;
     height: 120px;
@@ -334,9 +339,9 @@ body{
 }
 
 .Interest-list li{
-    width: 221px;
+    width: 200px;
     float: left;
-    padding-top: 190px;
+    padding-top: 150px;
 }
 
 
@@ -370,7 +375,7 @@ body{
     content: " ";
     position: absolute;
     top: 0px;
-    left: 38px;
+    left: 30px;
     width: 144px;
     height: 144px;
     background-image: url("Images/Ellipse\ 2.png"),
@@ -401,14 +406,14 @@ body{
 .Reference h2{
     position: relative;
     padding-left: 165px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 .Reference h2::before{
     display: block;
     content: " ";
     position: absolute;
-    left: 0px;
+    left: -5px;
     top: 0px;
     width: 120px;
     height: 120px;
@@ -419,7 +424,7 @@ body{
 }   
 
 .Reference-fist{
-    margin-bottom: 120px;
+    margin-bottom: 65px;
     padding-left: 95px;
 }
 
@@ -434,8 +439,8 @@ body{
     left: -90px;
     top: 0px;
     width: 48px;
-    height: 48px;
-    background-image: url("Images/Ellipse\ smoll.png");
+    height: 50px;
+    background-image: url("Images/Ellipse_smoll.jpg");
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -445,20 +450,22 @@ body{
     content: " ";
     position: absolute;
     left: -90px;
-    top: 44px;
+    top: 50px;
     width: 48px;
-    height: 360px;
-    background-image: url("Images/Shape\ 1.png");
+    height: 250px;
+    background-image: url("Images/Shape\ 1.jpg");
     background-position:  bottom;
     background-repeat: repeat-y;
 }
 
 .Reference-second{
-    margin-bottom: 150px;
+    margin-bottom: 65px;
     padding-left: 95px;
 }
 
 .Reference-second b{
+    margin: 0px;
+    padding: 0px;
     position: relative;
 }
 
@@ -469,8 +476,8 @@ body{
     left: -90px;
     top: 0px;
     width: 48px;
-    height: 48px;
-    background-image: url("Images/Ellipse\ smoll.png");
+    height: 50px;
+    background-image: url("Images/Ellipse_smoll.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -478,7 +485,7 @@ body{
 .Awwards h2{
     position: relative;
     padding-left: 165px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .Awwards h2::before{
@@ -499,7 +506,7 @@ body{
 
 .riht-column{
     width: 1585px;
-    margin-left: 120px;
+    margin-left: 60px;
     float: left;
 }
 
@@ -510,7 +517,7 @@ main::after{
 }
 
 .riht-column h2{
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     position: relative;
     padding-left: 215px;
 }
@@ -530,7 +537,7 @@ main::after{
 
 .Experience-list{
     margin-left: 130px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     width: 1755px;
     overflow: auto;
 }
@@ -546,8 +553,8 @@ main::after{
     left: -85px;
     top: 0px;
     width: 48px;
-    height: 48px;
-    background-image: url("Images/Ellipse\ smoll.png");
+    height: 50px;
+    background-image: url("Images/Ellipse_smoll.jpg");
     background-position: top, center;
     background-repeat: no-repeat;
 }
@@ -557,10 +564,10 @@ main::after{
     content: " ";
     position: absolute;
     left: -85px;
-    top: 44px;
+    top: 50px;
     width: 48px;
-    height: 345px;
-    background-image: url("Images/Shape\ 1.png");
+    height: 235px;
+    background-image: url("Images/Shape\ 1.jpg");
     background-position:  bottom, center;
     background-repeat: repeat-y;
 }
@@ -576,8 +583,8 @@ main::after{
     left: -85px;
     top: 0px;
     width: 48px;
-    height: 48px;
-    background-image: url("Images/Ellipse\ smoll.png");
+    height: 50px;
+    background-image: url("Images/Ellipse_smoll.jpg");
     background-position: top, center;
     background-repeat: no-repeat;
 }
@@ -587,10 +594,10 @@ main::after{
     content: " ";
     position: absolute;
     left: -85px;
-    top: 44px;
+    top: 50px;
     width: 48px;
-    height: 345px;
-    background-image: url("Images/Shape\ 1.png");
+    height: 235px;
+    background-image: url("Images/Shape\ 1.jpg");
     background-position:  bottom, center;
     background-repeat: repeat-y;
 }
@@ -606,8 +613,8 @@ main::after{
     left: -85px;
     top: 0px;
     width: 48px;
-    height: 48px;
-    background-image: url("Images/Ellipse\ smoll.png");
+    height: 50px;
+    background-image: url("Images/Ellipse_smoll.jpg");
     background-position: top, center;
     background-repeat: no-repeat;
 }
@@ -623,8 +630,8 @@ main::after{
     left: -85px;
     top: 0px;
     width: 48px;
-    height: 48px;
-    background-image: url("Images/Ellipse\ smoll.png");
+    height: 50px;
+    background-image: url("Images/Ellipse_smoll.jpg");
     background-position: top, center;
     background-repeat: no-repeat;
 }
@@ -634,10 +641,10 @@ main::after{
     content: " ";
     position: absolute;
     left: -85px;
-    top: 44px;
+    top: 50px;
     width: 48px;
-    height: 345px;
-    background-image: url("Images/Shape\ 1.png");
+    height: 235px;
+    background-image: url("Images/Shape\ 1.jpg");
     background-position:  bottom, center;
     background-repeat: repeat-y;
 }
@@ -653,8 +660,8 @@ main::after{
     left: -85px;
     top: 0px;
     width: 48px;
-    height: 48px;
-    background-image: url("Images/Ellipse\ smoll.png");
+    height: 50px;
+    background-image: url("Images/Ellipse_smoll.jpg");
     background-position: top, center;
     background-repeat: no-repeat;
 }
@@ -669,8 +676,8 @@ main::after{
 .descripon{
     width: 715px;
     margin: 0px;
-    padding-top: 27px;
-    margin-bottom: 250px;
+    padding-top: 7px;
+    margin-bottom: 65px;
     float: left;
 }
 
@@ -693,16 +700,8 @@ main::after{
     overflow: auto;
 }
 
-.descripon{
-    width: 715px;
-    margin: 0px;
-    padding-top: 27px;
-    margin-bottom: 150px;
-    float: left;
-}
-
 .Education{
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .Professional-Skills h2::before{
@@ -719,9 +718,10 @@ main::after{
 } 
 
 .Skilss-list{
-    padding-left: 120px;
+    width: 1600px;
+    padding-left: 110px;
     position: relative;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .Skilss-item,
@@ -731,16 +731,16 @@ main::after{
 }
 
 .Skilss-prossession{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 93px;
+    padding-bottom: 63px;
 }
 
 .Interface::before{
     content: " ";
     width: 240px;
     height: 240px;
-    left: 180px;
-    top: 42px;
+    left: 165px;
+    top: 25px;
     position: absolute;
     background-image: url("Images/Ellipse 93.png");
     background-position: center, center;
@@ -751,8 +751,8 @@ main::after{
     content: " ";
     width: 240px;
     height: 240px;
-    left: 538px;
-    top: 42px;
+    left: 525px;
+    top: 25px;
     position: absolute;
     background-image: url("Images/Ellipse 97.png");
     background-position: center, center;
@@ -763,8 +763,8 @@ main::after{
     content: " ";
     width: 240px;
     height: 240px;
-    left: 896px;
-    top: 42px;
+    left: 875px;
+    top: 25px;
     position: absolute;
     background-image: url("Images/Ellipse 84.png");
     background-position: center, center;
@@ -775,8 +775,8 @@ main::after{
     content: " ";
     width: 240px;
     height: 240px;
-    left: 1254px;
-    top: 42px;
+    left: 1245px;
+    top: 25px;
     position: absolute;
     background-image: url("Images/Ellipse 83.png");
     background-position: center, center;
@@ -815,8 +815,8 @@ footer a{
 }
 
 .podpis{
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .Reference-fist-port b,
@@ -826,7 +826,7 @@ footer a{
 }
 
 .Reference-fist-port{
-    margin-bottom: 120px;
+    margin-bottom: 60px;
     padding-left: 95px;
 }
 
@@ -841,7 +841,7 @@ footer a{
     left: -90px;
     top: 0px;
     width: 48px;
-    height: 48px;
+    height: 50px;
     background-image: url("Images/Ellipse\ 2.jpg");
     background-position: top;
     background-repeat: no-repeat;
@@ -852,16 +852,16 @@ footer a{
     content: " ";
     position: absolute;
     left: -90px;
-    top: 44px;
+    top: 50px;
     width: 48px;
-    height: 360px;
-    background-image: url("Images/Shape\ 1.png");
+    height: 255px;
+    background-image: url("Images/Shape\ 1.jpg");
     background-position:  bottom;
     background-repeat: repeat-y;
 }
 
 .Reference-second-port{
-    margin-bottom: 150px;
+    margin-bottom: 65px;
     padding-left: 95px;
 }
 
@@ -876,7 +876,7 @@ footer a{
     left: -90px;
     top: 0px;
     width: 48px;
-    height: 48px;
+    height: 50px;
     background-image: url("Images/Ellipse\ 2.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -904,7 +904,7 @@ footer a{
     float: left;
     margin-top: 50px;
     margin-right: 52px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     box-shadow: 0 0 100px #e0e0e0;
 }
 
@@ -922,7 +922,7 @@ footer a{
 
 .foot-portfolio{
     padding: 70px;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 300px;
     overflow: auto;
 
